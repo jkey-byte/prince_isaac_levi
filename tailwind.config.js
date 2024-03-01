@@ -1,3 +1,5 @@
+const { Palanquin } = require("next/font/google");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,10 +9,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage: {},
+      fontFamily: {
+        Palanquin: ["palanquin", "sans-serif"],
+        montserrat: ["montserrat", "sans-serif"],
+      },
+      colors: {
+        primary: "#013B6D",
+        orange: "#Fb7508",
+        "bright-red": "#013B6",
       },
     },
   },
