@@ -23,10 +23,10 @@ const Footer = () => {
             // className="items-center justify-center"
           />
 
-          <div className="flex gap-16 items-center max-lg:mt-10">
-            <div className="w-[3px] h-[200px] bg-primary"></div>
+          <div className="flex gap-5 items-center max-lg:mt-10">
+            <div className="w-[3px] h-[200px] bg-primary max-sm:hidden"></div>
             <div className="">
-              <h1 className="font-Palanquin font-bold text-5xl">
+              <h1 className="font-Palanquin font-bold text-5xl max-sm:text-4xl">
                 Prince Isaac
               </h1>
               <p className="font-montserrat text-gray-800 text-lg">
@@ -46,7 +46,7 @@ const Footer = () => {
                 <li>Money Market</li>
               </ul>
             </div>
-            <div className="w-[3px] h-[200px] bg-primary"></div>
+            <div className="w-[3px] h-[200px] bg-primary max-sm:hidden"></div>
           </div>
 
           <div className="max-lg:mt-5">
@@ -57,7 +57,7 @@ const Footer = () => {
               height={200}
               className="max-sm:hidden"
             />
-            <div className="flex justify-between max-lg:justify-center max-lg:gap-16 pt-3">
+            <div className="flex justify-between max-lg:justify-center max-lg:gap-10 pt-3">
               <div className="text-white bg-primary p-3 rounded-full">
                 <FaFacebookF />
               </div>
