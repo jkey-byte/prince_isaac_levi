@@ -18,8 +18,8 @@ module.exports = {
       },
       colors: {
         primary: "#013B6D",
-        orange: "#Fb7508",
-        "bright-red": "#013B6",
+        orange: "#FB7508",
+        "bright-red": "#ff0000",
       },
     },
   },

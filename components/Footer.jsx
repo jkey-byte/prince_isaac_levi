@@ -14,10 +14,16 @@ const Footer = () => {
         {/* <div className="absolute top-44 right-[90%]">
           <Image src="/shape2.png" alt="shape" width={250} height={250} />
         </div> */}
-        <div className="flex justify-evenly items-center ">
-          <Image src="/picture.png" alt="logo" width={300} height={300} />
+        <div className="flex justify-evenly items-center max-lg:block max-sm:m-auto">
+          <Image
+            src="/picture.png"
+            alt="logo"
+            width={300}
+            height={300}
+            // className="items-center justify-center"
+          />
 
-          <div className="flex gap-16 items-center">
+          <div className="flex gap-16 items-center max-lg:mt-10">
             <div className="w-[3px] h-[200px] bg-primary"></div>
             <div className="">
               <h1 className="font-Palanquin font-bold text-5xl">
@@ -43,9 +49,15 @@ const Footer = () => {
             <div className="w-[3px] h-[200px] bg-primary"></div>
           </div>
 
-          <div className="">
-            <Image alt="logo" src="/logo1.png" width={200} height={200} />
-            <div className="flex justify-between pt-3">
+          <div className="max-lg:mt-5">
+            <Image
+              alt="logo"
+              src="/logo1.png"
+              width={200}
+              height={200}
+              className="max-sm:hidden"
+            />
+            <div className="flex justify-between max-lg:justify-center max-lg:gap-16 pt-3">
               <div className="text-white bg-primary p-3 rounded-full">
                 <FaFacebookF />
               </div>
@@ -59,13 +71,13 @@ const Footer = () => {
                 <FaInstagram />
               </div>
             </div>
-            <h1 className="font-montserrat tracking-widest">
+            <h1 className="font-montserrat tracking-widest max-lg:text-center max-lg:mt-5">
               Levi Prince Isaac
             </h1>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-[200px] mt-5">
-          <div className="flex items-center gap-3">
+        <div className="flex justify-center items-center gap-[200px] max-lg:gap-10 mt-5 max-sm:block">
+          <div className="flex items-center gap-3 max-sm:mb-5">
             <div className="text-white bg-primary p-3 rounded-full">
               <FaPhoneAlt />
             </div>
