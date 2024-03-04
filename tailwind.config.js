@@ -9,7 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      backgroundImage: {
+        "bg-dot": 'url("/bg.png")',
+      },
       fontFamily: {
         Palanquin: ["palanquin", "sans-serif"],
         montserrat: ["montserrat", "sans-serif"],

@@ -1,4 +1,4 @@
-import React from "react";
+// import { useState } from "react";
 import Image from "next/image";
 import {
   FaSearch,
@@ -15,6 +15,7 @@ import { LiaUniversitySolid } from "react-icons/lia";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const NavBar = () => {
+  // const [hamburger, setHamburger] = useState("hidden");
   return (
     <>
       <div className="bg-white">
@@ -40,7 +41,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="bg-primary text-white font font-montserrat p-5 flex gap-16 justify-end max-sm:justify-center">
-        <div className="flex gap-10 max-sm:gap-7">
+        <div className="flex gap-10 max-sm:gap-5">
           <div className="flex items-center gap-3 cursor-pointer">
             <div className="">
               <RiBook2Line size={25} />
